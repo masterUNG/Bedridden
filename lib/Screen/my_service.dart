@@ -9,16 +9,16 @@ import 'Home/home.dart';
 
 // Adapted from offical flutter gallery:
 // https://github.com/flutter/flutter/blob/master/examples/flutter_gallery/lib/demo/material/bottom_app_bar_demo.dart
-class myService extends StatefulWidget {
-  const myService({Key? key}) : super(key: key);
+class MyService extends StatefulWidget {
+  const MyService({Key? key}) : super(key: key);
 
   @override
-  State<StatefulWidget> createState() => _myServiceState();
+  State<StatefulWidget> createState() => _MyServiceState();
 }
 
-class _myServiceState extends State<myService> {
+class _MyServiceState extends State<MyService> {
   int selectedpage = 0;
-  final _pageOption = [ home(),map(), add(), calculate(), profile()];
+  final _pageOption = [ Home(),map(), Add(), calculate(), Profile()];
 
   @override
   Widget build(BuildContext context) {
